@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3a3c41;
+}
+
+.foto {
+    width: 30vw;
+    height: 30vh;
+}
+
+img {
+    width: 30vw;
+    height: 30vh;
+}
+
+table {
+    width: 30vw;
+    height: 30vh;
+    border-collapse: collapse;
+    font-family: Calibri;
+    font-style: normal;
+    font-size: 2vh;
+    /*font-weight: bold;*/
+}
+ td {
+    height: 2vh;
+    border: 2px solid black;
+}
+
+.tr_gl {
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    background-color: #537cbc;
+}
+
+.dat_hd {
+    width: 12.3vw;
+}
+
+.sprzed {
+    width: 9.8vw;
+}
+
+.dat {
+    padding-right: 5px;
+    text-align: right;
+    font-size: 2.4vh;
+    background-color: #d8cfdf;
+}
+
+.name {
+    padding-left: 5px;
+    font-size: 2.4vh;
+    background-color: #bad6c7;
+}
+
+.umow {
+    padding-right: 5px;
+    text-align: right;
+    font-size: 2.4vh;
+    background-color: #bad6c7;
+}
